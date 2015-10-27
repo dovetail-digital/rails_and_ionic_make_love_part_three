@@ -1,0 +1,12 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <div class="list card" ng-repeat="blog_entry in blog_entries">
+      <div class="item item-divider">{{blog_entry.title}}</div>
+      <div class="item item-body">
+        <div>
+          {{blog_entry.content}}
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
